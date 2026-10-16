@@ -1,0 +1,19 @@
+{
+  "language": "auto",
+  "defaultAccount": "main",
+  "claudeExe": "",
+  "handoffsDir": "",
+  "redactSecrets": true,
+  "export": {
+    "chat": { "detail": "normal", "maxChars": 300000 },
+    "cowork": { "detail": "full", "maxChars": 600000 },
+    "export": { "detail": "full", "maxChars": 0 }
+  },
+  "accounts": {
+    "main": {},
+    "work": {
+      "label": "Claude Work",
+      "userDataDir": "%USERPROFILE%\\Claude-Work"
+    }
+  }
+}
